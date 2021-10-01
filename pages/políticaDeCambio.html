@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Finger+Paint&familia=Mayor+Mono+Pantalla&familia=Roboto:wght@900&display=swap" rel="hoja de estilo">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>2fus_Shop</title>
+</head>
+<body class="grilla">
+    <header id=".container-fluid">
+        <div class="contenedorTitulos">
+            <h1 class="contenedorTitulos__principal">Dofus Shop</h1>
+            <p class="contenedorTitulos__secundario">Te llevamos la moda</p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-white" style="margin:154px; margin-left: 0px; background-color: rgba(71, 90, 112, 0.548);width: 100%;">
+            <div class="container-fluid">
+            <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/políticaDeCambio.html">Política De Cambio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/pages/productos.html">Pantalones</a></li>
+                                <li><a class="dropdown-item" href="/pages/productos.html">Remeras</a></li>
+                                <li><a class="dropdown-item" href="/pages/productos.html">Zapatillas</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="productos">
+            <h2>Política de cambio</h2>
+            Los cambios se realizan dentro de los 30 días siguientes de haber recibido la compra, sin excepcion! . 
+            <br>
+            Los cambios de las prendas se efectúan, acercandote a nuestro Local en Morón, de lunes a Sábado de 11 a 18hs. 
+            <br>
+            También podes hacerlo por correo o moto mensajeria, dependiendo la zona, mandándonos un mail a 2fus_Shop@gmail.com con el asunto: CAMBIO #nº de orden y te indicaremos los pasos a seguir. El costo de envío estará a cargo del cliente.
+            <br>
+            Para poder realizar el cambio la prenda debe estar en el mismo estado en que fue enviada, sin haber sido lavada ni usada.
+            <br>
+            Ante cualquier duda, o si necesitas ayuda para efectuar tu compra, no dudes en contactarte con nosotros!
+            <br>
+            <br>
+            El equipo de 2fus!
+            Gracias
+        </article>
+    </main>
+    <footer style="background-color:lightblue" class="footer" >
+        <div style="text-align: center;">
+            <h4 class="footer__tituloPrincipalFooter">Nuestras Redes</h4>
+            <a href="https://www.instagram.com/2ofus.shop/"class="nosotros__a"> Instagram </a>
+        </div>
+        <div class="contenedorMails">
+            <form action="">
+                <H4 class="contenedorMails__mail">NEWSLETTER</H4>
+                <p class="mails">Mail</p>
+                <input type="text" placeholder="mail">
+                <button type="button" class="btn btn-dark">Enviar</button>
+        </div>
+            <article>
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Nuestras Ofertas
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">2fus Code</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            ¿Querés recibir notificaciones de 2fus Shop? Novedades, beneficios y descuentos exclusivos.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"  data-bs-dismiss="modal">No Gracias</button>
+                <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Suscribrime</button>
+            </div>
+            </div>
+        </div>
+        </div>
+            </article>
+        </form>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
