@@ -48,8 +48,10 @@ header{
 }
 @media only screen and (max-width:480px){
 
-    .grilla{        flex-direction: column;        
-
+    .grilla{        
+        flex-direction: column; 
+        display: flex;        
+        align-items: center;       
         background-color: rgb(255, 255, 255);        
 }}
 @media only screen and (max-width:1024px){
@@ -64,8 +66,10 @@ header{
 @media only screen and (max-width:1200px){
 
 
-    .grilla{        flex-direction: column;        
-
+    .grilla{        
+        flex-direction: column;        
+        display: flex;        
+        align-items: center;
         background-color: rgb(255, 255, 255);
         
 }}
