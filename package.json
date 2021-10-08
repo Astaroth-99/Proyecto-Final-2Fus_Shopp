@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astaroth-99/Repositori.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Astaroth-99/Repositori/issues"
+  },
+  "homepage": "https://github.com/Astaroth-99/Repositori#readme",
   "description": ""
 }
