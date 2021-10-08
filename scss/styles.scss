@@ -32,8 +32,8 @@ header{
             }
         }
 .nosotros{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);-image: linear-gradient(#ffe0ff, #fac6f1, #c9c3ca); 
+    
+    background-color: rgba(201, 192, 192, 0.397);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,27 +49,20 @@ header{
 @media only screen and (max-width:480px){
 
     .grilla{        
-        flex-direction: column; 
-        display: flex;        
-        align-items: center;       
-        background-color: rgb(255, 255, 255);        
+        flex-direction: column;       
 }}
 @media only screen and (max-width:1024px){
 
-    .grilla{        
-    flex-direction: column;
-    display: flex;        
-    align-items: center;
-    background-color: rgb(255, 255, 255);
+    .grilla{        flex-direction: column;        
+
+        background-color: rgb(255, 255, 255);
         
 }}
 @media only screen and (max-width:1200px){
 
 
-    .grilla{        
-        flex-direction: column;        
-        display: flex;        
-        align-items: center;
+    .grilla{        flex-direction: column;        
+
         background-color: rgb(255, 255, 255);
         
 }}
@@ -107,12 +100,10 @@ header{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-            background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     margin: auto;
     width: 100%;
-    height: 500px;
-
+    height: 1000px;
+    background-color: rgba(201, 192, 192, 0.397);
     &__articulos{
         width: 330px;
         height: 430px;
